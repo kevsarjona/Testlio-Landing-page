@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testlio | Functional QA, user experience testing for web and mobile apps</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="css/StyleHome.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <link rel="icon" href="https://4bm72536znsd4dzknf28vsl4-wpengine.netdna-ssl.com/wp-content/uploads/2020/04/cropped-Favicon-512x512-1-2-32x32.png" sizes="32x32">
+
+  </head>
+
+<body>
+
+    <header id="masterhead" class="site-header controller" style="height:77px ;">
+
+
+      <div class="top-bar-center">
+
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="https://testlio.com/">
+                <img src="images/logo-testlio.png" alt="testlio logo" width="120" height="40">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Company
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Networked Testing</a></li>
+                          <li><a class="dropdown-item" href="#">How It Works</a></li>
+                          <li><a class="dropdown-item" href="#">Differences</a></li>
+                          <li><a class="dropdown-item" href="#">Partners</a></li>
+                          <li><a class="dropdown-item" href="#">Jobs</a></li>
+                          <li><a class="dropdown-item" href="#">Platform Team</a></li>
+                          <li><a class="dropdown-item" href="#">Ignite</a></li>
+                        </ul>
+                      </li>
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Platform
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="#">Overview</a></li>
+                          <li><a class="dropdown-item" href="#">Tests</a></li>
+                          <li><a class="dropdown-item" href="#">Plans</a></li>
+                          <li><a class="dropdown-item" href="#">Runs</a></li>
+                          <li><a class="dropdown-item" href="#">Reports</a></li>
+                          <li><a class="dropdown-item" href="#">Issues</a></li>
+                          <li><a class="dropdown-item" href="#">Teams</a></li>
+                          <li><a class="dropdown-item" href="#">Profiles</a></li>
+                          <li><a class="dropdown-item" href="#">Automation</a></li>
+                          <li><a class="dropdown-item" href="#">Integrations</a></li>
+                        </ul>
+                      </li>
+
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Network
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="#">Global Network</a></li>
+                          <li><a class="dropdown-item" href="#">Become a Tester</a></li>
+                          <li><a class="dropdown-item" href="#">Become a QE</a></li>
+                          <li><a class="dropdown-item" href="#">Our Pledge</a></li>
+                          <li><a class="dropdown-item" href="#">Testilo Network Blog</a></li>
+                          <li><a class="dropdown-item" href="#">Tester Log In</a></li>
+                        </ul>
+                      </li>
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Services
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="#">Client Services</a></li>
+                          <li><a class="dropdown-item" href="#">Fully-managed testing</a></li>
+                          <li><a class="dropdown-item" href="#">Co-managed testing</a></li>
+                          <li><a class="dropdown-item" href="#">How Testilo Helps Product</a></li>
+                          <li><a class="dropdown-item" href="#">How Testilo Helps Engineering</a></li>
+                          <li><a class="dropdown-item" href="#">How Testilo Helps QA Teams</a></li>
+                        </ul>
+                      </li>
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Capabilities
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="#">All Capabilities</a></li>
+                          <li><a class="dropdown-item" href="#">Functional Testing</a></li>
+                          <li><a class="dropdown-item" href="#">Localization Testing</a></li>
+                          <li><a class="dropdown-item" href="#">Usability Testing</a></li>
+                          <li><a class="dropdown-item" href="#">Payments Testing</a></li>
+                          <li><a class="dropdown-item" href="#">Regressions Testing</a></li>
+                          <li><a class="dropdown-item" href="#">AR/VR Tesing</a></li>
+                          <li><a class="dropdown-item" href="#">Mobile Testing</a></li>
+                          <li><a class="dropdown-item" href="#">Autonmated Testing</a></li>
+                          <li><a class="dropdown-item" href="#">Live Stream Testing</a></li>
+                          <li><a class="dropdown-item" href="#">Exploratory Testing</a></li>
+                          <li><a class="dropdown-item" href="#">Location Testing</a></li>
+                          <li><a class="dropdown-item" href="#">Accessibility Testing</a></li>
+                          <li><a class="dropdown-item" href="#">Real Device Testing</a></li>
+                        </ul>
+                      </li>
+
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Coverage
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="#">Devices, Languages, Locations</a></li>
+                          <li><a class="dropdown-item" href="#">iOS App Testing</a></li>
+                          <li><a class="dropdown-item" href="#">Android App Testing</a></li>
+                          <li><a class="dropdown-item" href="#">Web App Testing</a></li>
+                          <li><a class="dropdown-item" href="#">Desktop App Testing</a></li>
+                        </ul>
+                      </li>
+
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Customers
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="#">By Client</a></li>
+                          <li><a class="dropdown-item" href="#">Commerce & Retail</a></li>
+                          <li><a class="dropdown-item" href="#">Health & Wellness</a></li>
+                          <li><a class="dropdown-item" href="#">Media & Entertainment</a></li>
+                          <li><a class="dropdown-item" href="#">Productivity & Comms</a></li>
+                          <li><a class="dropdown-item" href="#">Software & B2B</a></li>
+                          <li><a class="dropdown-item" href="#">By Industry</a></li>
+                          <li><a class="dropdown-item" href="#">Finance & Banking</a></li>
+                          <li><a class="dropdown-item" href="#">Learning & Education</a></li>
+                          <li><a class="dropdown-item" href="#">Mobility & Travel</a></li>
+                          <li><a class="dropdown-item" href="#">Social & Gaming</a></li>
+                          <li><a class="dropdown-item" href="#">Sports & Fitness</a></li>
+                        </ul>
+                      </li>
+
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Content
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="#">Content Library</a></li>
+                          <li><a class="dropdown-item" href="#">Blog</a></li>
+                          <li><a class="dropdown-item" href="#">Press Releases</a></li>
+                          <li><a class="dropdown-item" href="#">Resource Library</a></li>
+                          <li><a class="dropdown-item" href="#">Testilo in the news</a></li>
+                          <li><a class="dropdown-item" href="#">Case Studies</a></li>
+                        </ul>
+                      </li>
+
+
+
+
+                </ul>
+              </div>
+
+              <div class="top-bar-right">
+                <button type="button" class="btn btn-primary " a title="Request Demo" href="https://page.testlio.com/demo" >Request Demo</button>
+
+                <a class="nav-link " href="#">Sign in</a>
+
+              </div>
+
+            </div>
+
+          </nav>
+      </div>
+
+
+    </header>
+
+
+    <div class="hero-news">
+
+      <div class="hero-title">
+          <h1>Smarter testing, better software.</h1>
+      </div>
+
+      <div class="hero-text">
+          <p>Testlio brings together on-demand testing experts, strategic client services, and an integrated testing platform to reimagine software testing. Get the speed, quality, and coverage you need to ship with confidence. </p>
+      </div>
+
+      <div class="hero-buttons">
+        <div class="hero-image">
+
+        </div>
+        <a class="btn btn-dark" href="https://page.testlio.com/demo">Request a demo</a>
+        <a class="btn btn-outline-dark" href="https://testlio.com/network/">Apply to freelance</a>
+      </div>
+
+      <div class="hero-image2">
+
+      </div>
+
+    </div>
+
+    <div class="customers">
+      <h2 class="text-customers">Testilo customers include</h2>
+      <div class="marcas-logos">
+
+        <div class="logo">
+          <img src="images/Logo-Athenahealth-pngcontainer.png" alt="Athenahealth " width="135" height="54">
+        </div>
+
+        <div class="logo">
+          <img src="images/Logo-CBS-pngcontainer.png" alt="CBS" width="83" height="54" >
+        </div>
+
+        <div class="logo">
+          <img src="images/Logo-Hotels.com-pngcontainer.png" alt="Hotels" width="124" height="54">
+        </div>
+
+        <div class="logo">
+          <img src="images/Logo-Microsoft-pngcontainer.png" alt="Microsoft" width="109" height="54">
+        </div>
+
+        <div class="logo">
+          <img src="images/Logo-NBA-pngcontainer.png" alt="NBA" width="24" height="54">
+        </div>
+
+        <div class="logo">
+          <img src="images/Logo-Netflix-pngcontainer-v2.png" alt="NETFLIX" width="82" height="54" >
+        </div>
+
+        <div class="logo">
+          <img src="images/Logo-SAP-pngcontainer.png" alt="SAP" width="74" height="54">
+        </div>
+
+        <div class="logo">
+          <img src="images/Logo-Strava-pngcontainer.png" alt="Strava" width="96" height="54">
+        </div>
+
+      </div>
+    </div>
+
+    <div class="block-options">
+      <h2 class="text-options">It’s time to test differently.</h2>
+      <p class="descrip-options">A complete solution for exceptional software quality. On any device, in any location, in any language, for any industry.</p>
+
+
+      <div class="block-columns">
+
+        <div class="column">
+          <img src="images/Testlio-Offering-Network.png"  width="379.25" height="244.23"  alt="Network">
+          <h4>Network</h4>
+          <p>10,000 testing experts, carefully vetted and globally distributed, available on demand.</p>
+          <div class="block-button">
+            <a class="btn btn-dark" href="https://testlio.com/network/">Read more</a>
+          </div>
+        </div>
+
+        <div class="column">
+          <img src="images/Testlio-Offering-Services.webp" width="379.25" height="244.23" alt="Services">
+          <h4>Services</h4>
+          <p>Strategic and flexible managed services, fully or co-managed to ensure great results.</p>
+          <div class="block-button">
+            <a class="btn btn-dark" href="https://testlio.com/network/">Read more</a>
+          </div>
+
+        </div>
+
+        <div class="column">
+          <img src="images/Testlio-Offering-Platform.png" width="379.25" height="244.23" alt="Platform">
+          <h4>Platform</h4>
+          <p>Purpose built for seamless start-to-finish manual and automated software testing.</p>
+          <div class="block-button">
+            <a class="btn btn-dark" href="https://testlio.com/platform/">Read more</a>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+
+    <div class="promo-card">
+      <div class="top-background" style="background-color: rgb(255, 255, 255); height: 291.5px;"></div>
+      <div class="bottom-background" style="background-color: #ffddc2; height: 291.5px;"></div>
+
+      <div class="card-background" style="background-color:#c3e4ff">
+        <div class="card-text">
+          <p class="card-sudheading" style="color: #2d2d2d; background-color: #e7f4ff;">CTO Perspectives for 2022</p>
+          <h2>Build, Test, and Release Great Software</h2>
+          <a class="btn btn-dark" href="https://page.testlio.com/cto-perspectives-for-2022"> Watch on demand</a>
+        </div>
+  
+        <div class="card-image">
+          <img src="images/CTA-image.webp" width="486" height="487" alt="lazy">
+        </div>  
+      </div>
+      
+    </div>
+
+
+    <div class="cover-testilo">
+
+      <h2>Why Testlio?</h2>
+
+      <div class="draw-columns">
+
+        <div class="draw-colum">
+          <a href="https://testlio.com/the-testlio-difference/">
+            <img src="images/icon-mobile-5stars.webp" alt="icon mobile">
+          </a>
+
+          <h4>
+            <a href="https://testlio.com/the-testlio-difference/">Deliver Great Products</a>
+          </h4>
+        </div>
+
+        <div class="draw-colum">
+          <a href="https://testlio.com/the-testlio-difference/">
+            <img src="images/icon-mobile-fast.webp" alt="icon mobile">
+          </a>
+
+          <h4>
+            <a href="https://testlio.com/the-testlio-difference/">Accelerate Releases</a>
+          </h4>
+        </div>
+
+        <div class="draw-colum">
+          <a href="https://testlio.com/the-testlio-difference/">
+            <img src="images/icon-mobile-flexible-v2.webp" alt="icon mobile">
+          </a>
+
+          <h4>
+            <a href="https://testlio.com/the-testlio-difference/">Get Complete Coverage</a>
+          </h4>
+        </div>
+
+        <div class="draw-colum">
+          <a href="https://testlio.com/the-testlio-difference/">
+            <img src="images/icon-mobile-trusted.webp" alt="icon mobile">
+          </a>
+
+          <h4>
+            <a href="https://testlio.com/the-testlio-difference/">Ship With Confidence</a>
+          </h4>
+        </div>
+
+        <div class="draw-colum">
+          <a href="https://testlio.com/the-testlio-difference/">
+            <img src="images/icon-mobile-economics.webp" alt="icon mobile">
+          </a>
+
+          <h4>
+            <a href="https://testlio.com/the-testlio-difference/">Maximixe Testing ROI</a>
+          </h4>
+        </div>
+
+
+      </div>
+
+
+    </div>
+
+    <div class="promo-SAP">
+
+      <div class="bottom-background" style="background-color: #ffddc2; height: 291.5px;"></div>
+      <div class="top-background" style="background-color: rgb(255, 255, 255); height: 291.5px;"></div>
+
+      <div class="card-background2" style="background-color:#c3e4ff">
+
+        <div class="SAP-text">
+          <h2>See how Testlio delivers 6x better fixed-issue rate vs. competition</h2>
+          <a class="btn btn-dark" href="https://testlio.com/customers/concur-case-study/">Read our SAP case study</a>
+        </div>
+  
+        <div class="SAP-image">
+          <img src="images/Logo-SAP.webp" alt="Logo SAP">
+        </div>
+
+      </div>
+      
+    </div>
+
+    <div class="content-news">
+      <div class="content-title">
+        <h2>News and resources</h2>
+      </div>
+
+      <ul class="content-grid">
+        <li>
+          <img src="images/Ukraine-Blue-Background-for-Blog-slim.png" width="454" height="301" alt="">
+          <h4>Standing With People Everywhere During the Ukraine Crisis</h4>
+          <a href="https://testlio.com/blog/standing-with-people-everywhere-during-the-ukraine-crisis/">Read on our blog</a>
+        </li>
+
+        <li>
+          <img src="images/Testlio-QA-cycle-blog-image.jpg" width="454" height="301" alt="">
+          <h4>How to take your QA test cycle from two weeks to two days</h4>
+          <a href="https://testlio.com/blog/standing-with-people-everywhere-during-the-ukraine-crisis/">Read on our blog</a>
+        </li>
+
+        <li>
+          <img src="images/testlio-blog-4.0-launch-1920x1280px.jpg" width="454" height="301" alt="">
+          <h4>Testlio Launches Fused Testing to Transform Software Quality</h4>
+          <a href="https://testlio.com/blog/standing-with-people-everywhere-during-the-ukraine-crisis/">Read on our blog</a>
+        </li>
+
+        <li>
+          <img src="images/Content-Library-FI_BrowserStack-Webinar-630x350-1.png" width="454" height="301" alt="">
+          <h4>Fused Testing in Action: Testlio + BrowserStack</h4>
+          <a href="https://testlio.com/blog/standing-with-people-everywhere-during-the-ukraine-crisis/">Watch the webinar</a>
+        </li>
+
+        <li>
+          <img src="images/Buyers-Guide-1260x700px.jpg" width="454" height="301" alt="">
+          <h4>The Ultimate App Testing Buyer's Guide</h4>
+          <a href="https://testlio.com/blog/standing-with-people-everywhere-during-the-ukraine-crisis/">Download the ebook</a>
+        </li>
+
+        <li>
+          <img src="images/Content-LibrarySoftware-Quality-in-2022-Intelligent-Automation-Fused-Testing-and-More-630x350-2.png" width="454" height="301" alt="">
+          <h4>Software Quality in 2022: Intelligent Automation, Fused Testing, & More</h4>
+          <a href="https://testlio.com/blog/standing-with-people-everywhere-during-the-ukraine-crisis/">Watch the webinar</a>
+        </li>
+
+
+
+
+
+
+
+      </ul>
+
+    </div>
+
+    <div class="promo-card2">
+      <h2>A partnership built for you.</h2>
+
+      <div class="card-columns">
+        <div class="card-column">
+          <img src="images/icon-mobile-fullymanaged-large.webp" alt="">
+          <h4>Fully-managed testing</h4>
+          <p>We are your quality team</p>
+          <a class="btn btn-dark" href="https://testlio.com/how-testlio-does-qa-fully-managed/">Read more</a>
+        </div>
+
+        <div class="card-column">
+          <img src="images/icon-mobile-comanaged-large-v2.webp" alt="">
+          <h4>Co-managed testing</h4>
+          <p>We are your quality team</p>
+          <a class="btn btn-dark" href="https://testlio.com/how-testlio-does-qa-fully-managed/">Read more</a>
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+    <div class="image-cover">
+
+      <img src="images/Networked-Testing.webp" alt="">
+
+      <div class="cover-columns">
+        <div class="cover-column">
+          <h2>Networked Testing: Elevate quality with confidence</h2>
+          <a class="btn btn-dark" href="https://testlio.com/networked-testing/">Read more about our approach</a>
+        </div>
+        <div class="empty-column"></div>
+
+      </div>
+      
+    </div>
+
+    <div class="form-card">
+
+      <img src="images/demo-form-desktop-bg.svg" alt="">
+
+      <div class="form-columns">
+        <div class="form-column">
+          <h2>Quality matters. Testlio can help.</h2>
+          <p>Faster testing. Complete coverage. Better customer experiences.</p>
+
+          <h3>Expert Talent</h3>
+          <p>Highly experienced and carefully vetted testing talent are available on demand, on any device, in any location.</p>
+
+          <h3>Strategic Services</h3>
+          <p>World-class quality professionals work with your team to solve your testing challenges and deliver great results.</p>
+
+          <h3>Powerful Platform</h3>
+          <p>A fully integrated testing platform built to support seamless start-to-finish manual and automated testing.</p>
+        </div>
+
+
+        <div class="form">
+
+          <div class="form-column2">
+            <h3>Let’s talk.</h3>
+            <p>Schedule a chat with one of our testing experts to discover how we make software testing painless for your organization.</p>
+  
+            <p><strong>Looking to become a tester?</strong> <a href="https://testlio.com/for-testers/">Apply here</a></p>
+          </div>
+
+          <form class="row g-3">
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">First Name</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Last Name</label>
+              <input type="password" class="form-control" id="inputPassword4">
+            </div>
+
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Business Email</label>
+              <input type="password" class="form-control" id="inputPassword4">
+            </div>
+
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Phone number</label>
+              <input type="password" class="form-control" id="inputPassword4">
+            </div>
+
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Company name</label>
+              <input type="password" class="form-control" id="inputPassword4">
+            </div>
+
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Job Title</label>
+              <input type="password" class="form-control" id="inputPassword4">
+            </div>
+
+            <div class="col-12">
+              <label for="inputAddress2" class="form-label">How can we help?</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Tell us more about you're looking for in a testing partner.">
+            </div>
+
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Subscribe to Testlio's monthly newsletter
+                </label>
+              </div>
+            </div>
+
+            <a class="btn btn-dark" href="">Request Demo</a>
+
+          </form>
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="footer-container">
+
+      <div class="section">
+        <h6>COMPANY</h6>
+
+        <div class="menu">
+          <ul>
+            <li> <a href="">About</a> </li>
+            <li> <a href="">Networked Testing</a> </li>
+            <li> <a href="">How it works</a> </li>
+            <li> <a href="">The Testilo Difference</a> </li>
+            <li> <a href="">Partners</a> </li>
+            <li> <a href="">Network</a> </li>
+            <li> <a href="">Services</a> </li>
+            <li> <a href="">Jobs</a> </li>
+            <li> <a href="">Platform Team</a> </li>
+            <li> <a href="">Press</a> </li>
+            <li> <a href="">Blog</a> </li>
+            <li> <a href="">Customers</a> </li>
+          </ul>   
+        </div>
+        
+      </div>
+
+      <div class="section">
+        <h6>CAPABILITIES</h6>
+
+        <div class="menu">
+          <ul>
+            <li> <a href="">All Capabilities</a> </li>
+            <li> <a href="">Functional testing</a> </li>
+            <li> <a href="">Test automation</a> </li>
+            <li> <a href="">The Testilo Difference</a> </li>
+            <li> <a href="">Localization testing</a> </li>
+            <li> <a href="">Mobile app testing</a> </li>
+            <li> <a href="">Live Stream Testing</a> </li>
+            <li> <a href="">Usability Testing</a> </li>
+            <li> <a href="">Exploratory Testing</a> </li>
+            <li> <a href="">Payments Testing</a> </li>
+            <li> <a href="">Location Testing</a> </li>
+            <li> <a href="">Regression Testing</a> </li>
+            <li> <a href="">Accessibility Testing</a> </li>
+            <li> <a href="">AR/VR Testing</a> </li>
+            <li> <a href="">Real Device Testing</a> </li>
+          </ul> 
+        </div>
+               
+      </div>
+
+      <div class="section">
+        <h6>COVERAGE</h6>
+
+        <div class="menu">
+          <ul>
+            <li> <a href="">Test Coverage</a> </li>
+            <li> <a href="">iOS App Testing</a> </li>
+            <li> <a href="">Android App Testing</a> </li>
+            <li> <a href="">Web App Testing</a> </li>
+            <li> <a href="">Desktop App Testing</a> </li>
+          </ul>  
+        </div>
+         
+      </div>
+
+      <div class="section">
+        <h6>NETWORK</h6>
+
+        <div class="menu">
+          <ul>
+            <li> <a href="">Tester Network</a> </li>
+            <li> <a href="">Become a Tester</a> </li>
+            <li> <a href="">Become a QE</a> </li>
+            <li> <a href="">Our Pledge</a> </li>
+            <li> <a href="">Network Blog</a> </li>
+            <li> <a href="">Support</a> </li>
+          </ul> 
+        </div>
+        
+      </div>
+
+      <div class="section">
+        <h6>LEGAL</h6>
+        
+        <div class="menu">
+          <ul>
+            <li> <a href="">Privacy Policy</a> </li>
+            <li> <a href="">Terms of Service</a> </li>
+          </ul> 
+        </div>
+  
+      </div>
+
+
+
+
+
+
+    </div>
+
+
+
+
+</html>

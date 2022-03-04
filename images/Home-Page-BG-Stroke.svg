@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="997px" height="1104px" viewBox="0 0 997 1104" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Home Page BG Stroke</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Main" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="Main-Page" transform="translate(-493.000000, 0.000000)" stroke="#FFFFFF" stroke-width="50">
+            <g id="Hero" transform="translate(0.000000, -454.000000)">
+                <g id="BG">
+                    <path d="M360.860438,253.200968 C452.406024,463.29477 721.955869,316.731196 835.308029,539.178697 C948.660189,761.626199 1009.89813,970.233092 1133.91708,912.076996 C1257.93603,853.9209 1144.76721,669.445506 1101.85168,571.25597 C1058.93615,473.066435 993.239149,366.966845 1067.78219,318.647445 C1142.32523,270.328046 1228.61022,319.50852 1310.27679,399.843043 C1391.94336,480.177566 1420.43948,490.843259 1409.47912,701.569892 C1398.51977,912.296525 1436.14251,985.692333 1541.7489,1078.47785 C1647.3553,1171.26437 1888.14342,1347.67333 1999.68292,1253.90044 C2111.22342,1160.12754 2290.76061,1033.33811 2573.85401,1197.76521" id="Home-Page-BG-Stroke" transform="translate(1467.357226, 766.886918) scale(1, -1) rotate(14.000000) translate(-1467.357226, -766.886918) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
